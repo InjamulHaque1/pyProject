@@ -21,3 +21,8 @@ def fun(word):
         print("Not palindrome")
 fun("racecar")
 
+#Hossian
+def my_function():
+  print("Hello from a function")
+
+my_function()
