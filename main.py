@@ -12,6 +12,7 @@ fruits = ["apple", "banana", "cherry"]
 for x in fruits:
   print(x) 
 
+#Injamul Haque
 def fun(word):
     newWord = word[::-1]
     if newWord == word:
