@@ -6,7 +6,17 @@ a = "Hello World!"
 print(a.upper())
 print(len(a))
 
+
 #Again change by Hossian
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
   print(x) 
+
+def fun(word):
+    newWord = word[::-1]
+    if newWord == word:
+        print("Palindrome")
+    else:
+        print("Not palindrome")
+fun("racecar")
+
